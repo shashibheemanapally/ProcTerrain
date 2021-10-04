@@ -6,13 +6,13 @@ public  class NoiseSettings : MonoBehaviour
 {
     
     
-    public float amplitude = 10;
+    public float amplitude = 40;
     public int gridSize = 100;
     
-    public float lacunarity = 1.8f;
+    public float lacunarity = 4f;
     public float scale = 20f;
-    public int octaves = 3;
-    public float persistance = 0.5f;
+    public int octaves = 2;
+    public float persistance = 0.1f;
 
 
 }
